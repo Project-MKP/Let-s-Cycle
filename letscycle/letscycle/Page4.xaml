@@ -7,9 +7,23 @@
              x:Class="letscycle.Page4">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="EXAMPLE 4"
+            <Label Text="lbl1 "
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Label Text="lbl 2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="bike"
+                      HorizontalOptions="Center"
+                      VerticalOptions="Center">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>KRYSTIAN bike 1</x:String>
+                        <x:String>KRYSTIAN bike 2</x:String>
+                        <x:String>KRYSTIAN bike 3</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -7,9 +7,15 @@
              x:Class="letscycle.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="HOME"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="chuj lbl1"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label Text="dupa lbl2"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Label Text="cycki lbl3"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

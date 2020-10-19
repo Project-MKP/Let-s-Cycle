@@ -6,8 +6,8 @@
             mc:Ignorable="d"
              x:Class="letscycle.Tabbed">
   <!--Pages can be added as references or inline-->
-    <letscycle:Page1 Title="HOME"></letscycle:Page1>
-    <letscycle:Page2 Title="przyklad1"></letscycle:Page2>
-    <letscycle:Page3 Title="przyklad2"></letscycle:Page3>
-    <letscycle:Page4 Title="przyklad3"></letscycle:Page4>
+    <letscycle:Page1 Title="?"></letscycle:Page1>
+    <letscycle:Page2 Title="WYKRES"></letscycle:Page2>
+    <letscycle:Page3 Title="HOME"></letscycle:Page3>
+    <letscycle:Page4 Title="LOWEL"></letscycle:Page4>
 </TabbedPage>
