@@ -1969,24 +1969,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PIER\\.nuget\\packages\\": {},
+    "C:\\Users\\maciek\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\pierdoly\\LETS_CYCLE\\letscycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
+      "projectUniqueName": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
       "projectName": "letscycle.Android",
-      "projectPath": "G:\\pierdoly\\LETS_CYCLE\\letscycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
-      "packagesPath": "C:\\Users\\PIER\\.nuget\\packages\\",
-      "outputPath": "G:\\pierdoly\\LETS_CYCLE\\letscycle\\letscycle\\letscycle.Android\\obj\\",
+      "projectPath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
+      "packagesPath": "C:\\Users\\maciek\\.nuget\\packages\\",
+      "outputPath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\PIER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maciek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2000,8 +2000,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "G:\\pierdoly\\LETS_CYCLE\\letscycle\\letscycle\\letscycle\\letscycle.csproj": {
-              "projectPath": "G:\\pierdoly\\LETS_CYCLE\\letscycle\\letscycle\\letscycle\\letscycle.csproj"
+            "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+              "projectPath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
             }
           }
         }

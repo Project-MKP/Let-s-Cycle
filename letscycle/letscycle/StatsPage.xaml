@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="letscycle.StatsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Statistics"
+                HorizontalOptions="CenterAndExpand" 
+                Margin="0,30,0,0"
+                FontSize="30"/>
+
+            <StackLayout HorizontalOptions="Center" Grid.Row="1" Spacing="3" Margin="0,20,0,0"  Orientation="Horizontal" >
+                <Label Text="Bikers today:" FontSize="20" Margin="0,0,20,0"/>
+                <Label Text="Bikers this year:"  FontSize="20" Margin="30,0,0,0"/>
+            </StackLayout>
+
+            <Label Text="My Tracks"
+                Margin="20,30,0,0"
+                FontSize="20"/>
+            <ListView x:Name="XD" ItemsSource="{Binding myTracksList}" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BackgroundColor="#FAFAFA">
+                                <Grid >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.RowSpan="2" Source="{Binding imgPath}"></Image>
+                                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding street}"></Label>
+                                    <Label Grid.Column="1" Grid.Row="1" Text="{Binding bikersToday}"></Label>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

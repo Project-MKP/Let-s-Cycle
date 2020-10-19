@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "izQMXBM15EEB9HoOVpBCt8NzTr80aSpouMXBcx9iOhCiwYmJMyJ6UwOY2hX9aM0vMfxfgSV/eMCf7Z+NRmGmvA==",
+  "dgSpecHash": "FA3sHKfJgCH4NpY8jdpkB6zbc6sUjDuSDmjdH++aE9CGr/XVMsVYe+u7D7N8r3tuCz7mra8eFZuYCN769oNuWQ==",
   "success": true,
-  "projectFilePath": "G:\\pierdoly\\LETS_CYCLE\\letscycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
+  "projectFilePath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PIER\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+    "C:\\Users\\maciek\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\maciek\\.nuget\\packages\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\maciek\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],
   "logs": []
 }

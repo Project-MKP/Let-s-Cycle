@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="letscycle.HelpPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="About us"
+                     Margin="0,30,0,0"
+                     FontSize="20"
+                     HorizontalOptions="Center"/>
+
+            <Label
+                Padding="30"
+                Text="We are real man. We are ciapaks of progreming. If Ju lajk ołur sajt dżust visit it. A tak pzoa tym to KURWY I SMIECEI, Z WARSZAWY NIE WYJEDZIECIE"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="Default"/>
+
+                <Label 
+                   HorizontalTextAlignment="Right"
+                   FontSize="Medium"
+                   Margin="0,20,30,30">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Visit our site"
+                              TextColor="Blue"
+                              TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding TapCommand}" CommandParameter="https://project-mkp.5v.pl" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

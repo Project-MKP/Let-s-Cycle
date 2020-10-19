@@ -8279,7 +8279,7 @@ namespace letscycle.Droid
 			public const int avd_show_password = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int bicycle_50 = 2131165270;
+			public const int bicycle = 2131165270;
 			
 			// aapt resource value: 0x7F070057
 			public const int chart = 2131165271;
@@ -8303,7 +8303,7 @@ namespace letscycle.Droid
 			public const int design_snackbar_background = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int house_50 = 2131165278;
+			public const int house = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
 			public const int ic_mtrl_chip_checked_black = 2131165279;
@@ -8360,13 +8360,19 @@ namespace letscycle.Droid
 			public const int notify_panel_notification_icon_bg = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int question_mark_24 = 2131165297;
+			public const int question = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int tooltip_frame_dark = 2131165298;
+			public const int swieto = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int tooltip_frame_light = 2131165299;
+			public const int tooltip_frame_dark = 2131165299;
+			
+			// aapt resource value: 0x7F070074
+			public const int tooltip_frame_light = 2131165300;
+			
+			// aapt resource value: 0x7F070075
+			public const int woloska = 2131165301;
 			
 			static Drawable()
 			{
