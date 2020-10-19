@@ -6,8 +6,8 @@
             mc:Ignorable="d"
              x:Class="letscycle.Tabbed">
   <!--Pages can be added as references or inline-->
-    <letscycle:Page1 Title="?"></letscycle:Page1>
-    <letscycle:Page2 Title="WYKRES"></letscycle:Page2>
-    <letscycle:Page3 Title="HOME"></letscycle:Page3>
-    <letscycle:Page4 Title="LOWEL"></letscycle:Page4>
+    <letscycle:Page1 Title="?" IconImageSource="question.png" ></letscycle:Page1>
+    <letscycle:Page2 Title="WYKRES" IconImageSource="chart.png" ></letscycle:Page2>
+    <letscycle:Page3 Title="HOME" IconImageSource="house.png" ></letscycle:Page3>
+    <letscycle:Page4 Title="LOWEL" IconImageSource="bicycle.png" ></letscycle:Page4>
 </TabbedPage>

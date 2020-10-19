@@ -474,3 +474,7 @@ G:\pierdoly\LETS_CYCLE\letscycle\letscycle\letscycle.Android\obj\Debug\90\stamp\
 G:\pierdoly\LETS_CYCLE\letscycle\letscycle\letscycle.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 G:\pierdoly\LETS_CYCLE\letscycle\letscycle\letscycle.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 G:\pierdoly\LETS_CYCLE\letscycle\letscycle\letscycle.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+G:\pierdoly\LETS_CYCLE\letscycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\bicycle.png
+G:\pierdoly\LETS_CYCLE\letscycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\question.png
+G:\pierdoly\LETS_CYCLE\letscycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\chart.png
+G:\pierdoly\LETS_CYCLE\letscycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\house.png
