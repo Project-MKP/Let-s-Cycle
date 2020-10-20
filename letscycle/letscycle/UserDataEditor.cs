@@ -31,18 +31,20 @@ namespace letscycle
         {
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             string filename = Path.Combine(path, "userdata.txt");
-
-            using (var streamReader = new StreamReader(filename))
+            if (File.Exists(filename))
             {
-                string line;
-                while ((line = streamReader.ReadLine()) != null)
+                using (var streamReader = new StreamReader(filename))
                 {
-                    string[] element = line.Split('|');
-
-                    Track track= new Track() { imgPath = element[0], street = element[1], bikersToday = element[2] };
-                    if (!list.Contains(track))
+                    string line;
+                    while ((line = streamReader.ReadLine()) != null)
                     {
-                        list.Add(track);
+                        string[] element = line.Split('|');
+
+                        Track track = new Track() { imgPath = element[0], street = element[1], bikersToday = element[2] };
+                        if (!list.Contains(track))
+                        {
+                            list.Add(track);
+                        }
                     }
                 }
             }
