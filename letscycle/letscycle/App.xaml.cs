@@ -10,7 +10,7 @@ namespace letscycle
         {
             InitializeComponent();
 
-            MainPage = new Tabbed();
+            MainPage = new Tabbed(); //dupa siki kuktas sex 
         }
 
         protected override void OnStart()
