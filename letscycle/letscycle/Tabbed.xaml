@@ -6,8 +6,16 @@
             mc:Ignorable="d"
              x:Class="letscycle.Tabbed">
   <!--Pages can be added as references or inline-->
-    <letscycle:Page1 Title="?" IconImageSource="question.png" ></letscycle:Page1>
-    <letscycle:Page2 Title="WYKRES" IconImageSource="chart.png" ></letscycle:Page2>
-    <letscycle:Page3 Title="HOME" IconImageSource="house.png" ></letscycle:Page3>
-    <letscycle:Page4 Title="LOWEL" IconImageSource="bicycle.png" ></letscycle:Page4>
+    <letscycle:HomePage IconImageSource="home.png" ></letscycle:HomePage>  
+    <letscycle:TracksPage IconImageSource="bike.png" ></letscycle:TracksPage>
+    <letscycle:StatsPage IconImageSource="chart.png" ></letscycle:StatsPage>
+    <letscycle:HelpPage IconImageSource="help.png" ></letscycle:HelpPage>
+
+    
 </TabbedPage>
+<!--<TabbedPage.Resources>
+    <Style TargetType="NavigationPage">
+        <Setter Property="BarBackgroundColor" Value="Black"></Setter>
+        <Setter Property="BarTextColor" Value="Violet"></Setter>
+    </Style>
+</TabbedPage.Resources>-->
