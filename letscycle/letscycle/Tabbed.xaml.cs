@@ -16,9 +16,9 @@ namespace letscycle
         public Tabbed()
         {
             InitializeComponent();
-            BackgroundColor = Color.FromHex("#F2C299"); //background
+            BackgroundColor = Color.FromHex("#E4F2E6"); //background
             BarTextColor = Color.Black; //nav letters 
-            BarBackgroundColor = Color.FromHex("#E4F2E6"); //navbar 
+            BarBackgroundColor = Color.FromHex("#F2C299"); //navbar 
            // ForegroungColor = Color.FromHex();
                                                            //#353440 , #E4F2E6 , #F2C299 , #D99B84 , #A66658
 
