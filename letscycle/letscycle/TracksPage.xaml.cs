@@ -9,16 +9,24 @@ using Xamarin.Forms.Xaml;
 
 namespace letscycle
 {
+    
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TracksPage : ContentPage
     {
+        const string connStr = "server=remotemysql.com;user=rsnE4IGWZE;database=rsnE4IGWZE;password=DwbWHpJ6zr;"; 
+        //const string connStr = "server=remotemysql.com;user id=rsnE4IGWZE;password=rsnE4IGWZE;initial catalog=DwbWHpJ6zr;";
+        const string query = "SELECT * FROM data";
         public IList<Track> tracksList { get; set; }
+        public SqlConnector conn;
+
         public TracksPage()
         {
+            
             InitializeComponent();
             tracksList = new List<Track>();
-            tracksList.Add(new Track() { imgPath = "swieto.png", street = "Świętokrzyska", bikersToday = "324" });
-            tracksList.Add(new Track() { imgPath = "woloska.png", street = "Wołoska", bikersToday = "122" });
+            conn = new SqlConnector();
+            tracksList =  conn.Connect(connStr, query);
+
             BindingContext = this;
         }
     }

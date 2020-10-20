@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {}
+    "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {}
   },
   "projects": {
-    "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+    "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "projectUniqueName": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
         "projectName": "letscycle",
-        "projectPath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
-        "packagesPath": "C:\\Users\\maciek\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
+        "projectPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "packagesPath": "C:\\Users\\Krystian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\maciek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Krystian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -43,11 +43,23 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

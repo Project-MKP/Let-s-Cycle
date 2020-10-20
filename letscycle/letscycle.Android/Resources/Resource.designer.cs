@@ -8363,16 +8363,13 @@ namespace letscycle.Droid
 			public const int question = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int swieto = 2131165304;
+			public const int Swietokrzyska_i_Emilii_Plater = 2131165304;
 			
 			// aapt resource value: 0x7F070079
 			public const int tooltip_frame_dark = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
 			public const int tooltip_frame_light = 2131165306;
-			
-			// aapt resource value: 0x7F07007B
-			public const int woloska = 2131165307;
 			
 			static Drawable()
 			{
