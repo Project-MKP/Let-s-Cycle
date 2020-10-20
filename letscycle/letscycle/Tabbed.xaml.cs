@@ -18,7 +18,7 @@ namespace letscycle
             InitializeComponent();
             BackgroundColor = Color.FromHex("#E4F2E6"); //background
             BarTextColor = Color.Black; //nav letters 
-            BarBackgroundColor = Color.FromHex("#F2C299"); //navbar we lkrfthjiosdfjhgouih
+            BarBackgroundColor = Color.FromHex("#F2C299"); //navbar 
                                                            //#353440 , #E4F2E6 , #F2C299 , #D99B84 , #A66658
 
         }
