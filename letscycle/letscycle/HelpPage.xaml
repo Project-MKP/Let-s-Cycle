@@ -8,16 +8,18 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="About us"
-                     Margin="0,30,0,0"
-                     FontSize="20"
-                     HorizontalOptions="Center"/>
+                   TextColor="#353440"
+                   Margin="0,30,0,0"
+                   FontSize="20"
+                   HorizontalOptions="Center"/>
 
             <Label
                 Padding="30"
                 Text="We are real man. We are ciapaks of progreming. If Ju lajk ołur sajt dżust visit it. A tak pzoa tym to KURWY I SMIECEI, Z WARSZAWY NIE WYJEDZIECIE"
-                   VerticalOptions="FillAndExpand"
-                   HorizontalOptions="FillAndExpand"
-                   FontSize="Default"/>
+                TextColor="#353440" 
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                FontSize="Default"/>
 
                 <Label 
                    HorizontalTextAlignment="Right"
@@ -26,7 +28,7 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="Visit our site"
-                              TextColor="Blue"
+                              TextColor="#353440"
                               TextDecorations="Underline">
                             <Span.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding TapCommand}" CommandParameter="https://project-mkp.5v.pl" />

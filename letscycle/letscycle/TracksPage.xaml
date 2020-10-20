@@ -8,17 +8,27 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Tracks"
+                TextColor="#353440"
                 HorizontalOptions="CenterAndExpand" 
                 Margin="0,30,0,0"
                 FontSize="30"/>
-            <Label Text="Available Tracks"
-                Margin="20,30,0,0"
+            <StackLayout Orientation="Horizontal" Margin="20,30,0,0">
+                <Label Text="Available Tracks"
+                TextColor="#353440"
                 FontSize="20"/>
-            <ListView x:Name="XD" ItemsSource="{Binding tracksList}" HasUnevenRows="True">
+                <Button
+                Text="+"
+                x:Name="addTrackBtn"
+                WidthRequest="35"
+                HeightRequest="35"
+                Margin="140,0,0,0"
+                Clicked="addTrackBtn_Clicked"/>
+            </StackLayout>
+            <ListView x:Name="trackListView" ItemsSource="{Binding tracksList}" HasUnevenRows="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Frame BackgroundColor="#FAFAFA">
+                            <Frame BackgroundColor="#00FFFFFF">
                                 <Grid >
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto"></RowDefinition>
@@ -29,8 +39,11 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <Image Grid.RowSpan="2" Source="{Binding imgPath}"></Image>
-                                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding street}"></Label>
-                                    <Label Grid.Column="1" Grid.Row="1" Text="{Binding bikersToday}"></Label>
+                                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding street}" FontSize="17" LineBreakMode="WordWrap" WidthRequest="100" TextColor="#353440"></Label>
+                                    <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
+                                        <Label Text="Bikers Today:" TextColor="#353440"></Label>
+                                        <Label Text="{Binding bikersToday}" TextColor="#353440"></Label>
+                                    </StackLayout>
                                 </Grid>
                             </Frame>
                         </ViewCell>

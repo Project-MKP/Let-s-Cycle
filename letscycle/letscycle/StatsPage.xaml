@@ -8,23 +8,33 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Statistics"
+                TextColor="#353440"
                 HorizontalOptions="CenterAndExpand" 
                 Margin="0,30,0,0"
                 FontSize="30"/>
 
             <StackLayout HorizontalOptions="Center" Grid.Row="1" Spacing="3" Margin="0,20,0,0"  Orientation="Horizontal" >
-                <Label Text="Bikers today:" FontSize="20" Margin="0,0,20,0"/>
-                <Label Text="Bikers this year:"  FontSize="20" Margin="30,0,0,0"/>
+                <Label Text="Bikers today:" FontSize="20" Margin="0,0,20,0" TextColor="#353440"/>
+                <Label Text="Bikers this year:"  FontSize="20" Margin="30,0,0,0" TextColor="#353440"/>
             </StackLayout>
 
-            <Label Text="My Tracks"
-                Margin="20,30,0,0"
+            <StackLayout Orientation="Horizontal" Margin="20,30,0,0">
+                <Label Text="My Tracks"
+                TextColor="#353440"
                 FontSize="20"/>
-            <ListView x:Name="XD" ItemsSource="{Binding myTracksList}" HasUnevenRows="True">
+                <Button
+                Text="-"
+                x:Name="removeTrackBtn"
+                WidthRequest="35"
+                HeightRequest="35"
+                Margin="190,0,0,0"
+                Clicked="removeTrackBtn_Clicked"/>
+            </StackLayout>
+            <ListView x:Name="myTrackListView" ItemsSource="{Binding myTracksList}" HasUnevenRows="True" IsPullToRefreshEnabled="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Frame BackgroundColor="#FAFAFA">
+                            <Frame BackgroundColor="#00FFFFFF">
                                 <Grid >
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto"></RowDefinition>
@@ -35,8 +45,11 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <Image Grid.RowSpan="2" Source="{Binding imgPath}"></Image>
-                                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding street}"></Label>
-                                    <Label Grid.Column="1" Grid.Row="1" Text="{Binding bikersToday}"></Label>
+                                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding street}" FontSize="17" LineBreakMode="WordWrap" WidthRequest="100" TextColor="#353440"></Label>
+                                    <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
+                                        <Label Text="Bikers Today:" TextColor="#353440"></Label>
+                                        <Label Text="{Binding bikersToday}" TextColor="#353440"></Label>
+                                    </StackLayout>
                                 </Grid>
                             </Frame>
                         </ViewCell>

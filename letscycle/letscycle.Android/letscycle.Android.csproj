@@ -97,25 +97,73 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Swietokrzyska_i_Emilii_Plater.PNG" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\letscycle\letscycle.csproj">
       <Project>{F9CF1D6B-F079-4308-B5A2-73A035E5A6D9}</Project>
       <Name>letscycle</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\bicycle.png" />
+    <AndroidResource Include="Resources\drawable\Banacha_oraz_Zwirki_i_Wigury.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\question.png" />
+    <AndroidResource Include="Resources\drawable\Czerniakowska.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Marsa.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Marszalkowska_i_Metro_Swietokrzyska.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\NSR_Most_Gdanski.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\NSR_Solec.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Radzyminska_i_Jorskiego.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Swietokrzyska_i_Emilii_Plater.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Swietokrzyska_i_Zielna.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Szaserow.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Targowa_i_Dworzec_Wilenski.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Towarowa_i_Lucka.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Wiertnicza.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Zwirki_i_Wigury_i_Trojdena.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Aleje_Jerozolimskie_i_plac_Zawiszy.PNG" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\chart.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\house.png" />
+    <AndroidResource Include="Resources\drawable\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bike.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
