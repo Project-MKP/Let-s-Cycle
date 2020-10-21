@@ -7822,11 +7822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ch\\Desktop\\Nowy folder\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
       "projectName": "letscycle.iOS",
-      "projectPath": "C:\\Users\\ch\\Desktop\\Nowy folder\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
+      "projectPath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
       "packagesPath": "C:\\Users\\ch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ch\\Desktop\\Nowy folder\\Let-s-Cycle\\letscycle\\letscycle.iOS\\obj\\",
+      "outputPath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7847,8 +7847,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\ch\\Desktop\\Nowy folder\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
-              "projectPath": "C:\\Users\\ch\\Desktop\\Nowy folder\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
+            "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+              "projectPath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
             }
           }
         }

@@ -10,9 +10,9 @@ namespace letscycle
 {
     public class SqlConnector
     {
-        List<Track> expList = new List<Track>();
         public  List<Track> Connect(string cs, string query)
         {
+            List<Track> expList = new List<Track>();
             var current = Connectivity.NetworkAccess;
 
             if (current == NetworkAccess.Internet)
@@ -34,6 +34,16 @@ namespace letscycle
                 expList.Add(new Track() { imgPath ="gowno", street = "dupa", bikersToday ="ladna pani" });
             }
             return expList;
+        }
+
+        public List<Track> GetWeather(string cs, string query)
+        {
+            return null;
+        }
+
+        public List<Track> GetVeturilo(string cs, string query)
+        {
+            return null;
         }
     }
 }

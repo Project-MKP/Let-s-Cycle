@@ -6,10 +6,24 @@
              mc:Ignorable="d"
              x:Class="letscycle.HomePage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="EXAMPLE 2"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="10" Margin="0,40,0,0">
+                <Image x:Name="weatherImg" WidthRequest="140" HeightRequest="140"/>
+                <StackLayout Orientation="Vertical" VerticalOptions="End" Margin="10,0,0,20">
+                    <Label x:Name="tempLbl" FontSize="25" TextColor="#353440"/>
+                    <Label x:Name="weatherLbl" FontSize="15" TextColor="#353440"/>
+                    <Label Text="Jakość powietrza:" FontSize="15" TextColor="#353440"/>
+                    <Label x:Name="airConditionLbl"  FontSize="15" TextColor="#353440"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Padding="10" HorizontalOptions="Center">
+                <Label Text="Stacje Veturilo" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
+                <Label x:Name="stationsLbl" FontSize="25" TextColor="#353440" HorizontalOptions="Center"/>
+                <Label Text="Rowery Veturilo" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
+                <Label x:Name="bikesLbl" FontSize="25" TextColor="#353440" HorizontalOptions="Center"/>
+                <Label Text="Wolne rowery" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
+                <Label x:Name="freeBikesLbl" FontSize="25" TextColor="#353440" HorizontalOptions="Center"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
