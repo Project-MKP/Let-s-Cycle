@@ -7,39 +7,66 @@
              x:Class="letscycle.HelpPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="About us"
+
+            <Label Text="What is Let's Cycle"
                    TextColor="#353440"
                    Margin="0,30,0,0"
-                   FontSize="30"
+                   FontSize="15"
                    HorizontalOptions="Center"
                    BackgroundColor="#F2C299"
                    Padding="5"/>
 
             <Label
                 Padding="30"
-                Text="We are real man. We are ciapaks of progreming. If Ju lajk ołur sajt dżust visit it."
+                Text="Let's Cycle is mobile cross-platform app that helps people motivate to ride bike."
                 TextColor="#353440" 
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand"
-                FontSize="Default"/>
+                FontSize="15"/>
+            
+            <Label Text="About us"
+                   TextColor="#353440"
+                   Margin="0,10,0,0"
+                   FontSize="15"
+                   HorizontalOptions="Center"
+                   BackgroundColor="#F2C299"
+                   Padding="5"/>
 
-                <Label 
+            <Label
+                Padding="30"
+                Text="We are group of Polish high school students. We love programming, so we want our apps to be the best! If you want to read more about Project-MKP, just visit our website."
+                TextColor="#353440" 
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                FontSize="15"/>
+                
+            <Label
+                Text="~Project-MKP"
+                TextColor="#353440" 
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="End"
+                Margin="0,0,30,0"
+                FontSize="15"/>
+
+            <Label 
+                
                    HorizontalTextAlignment="Right"
-                   FontSize="Medium"
+                   FontSize="18"
                    Margin="0,20,30,30">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="Visit our site"
+
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Visit our site"
                               TextColor="#353440"
                               TextDecorations="Underline"
                               BackgroundColor="#F2C299">
-                            <Span.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding TapCommand}" CommandParameter="https://project-mkp.5v.pl" />
-                            </Span.GestureRecognizers>
-                        </Span>
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TapCommand}" CommandParameter="https://project-mkp.5v.pl" />
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

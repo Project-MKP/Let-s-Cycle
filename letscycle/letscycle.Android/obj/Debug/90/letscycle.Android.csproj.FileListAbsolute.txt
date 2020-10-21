@@ -3005,3 +3005,8 @@ C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\stamp\_
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\assets\Plugin.Connectivity.Abstractions.dll
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\assets\Plugin.Connectivity.Abstractions.pdb
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\assets\Plugin.Connectivity.dll
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\assets\Plugin.Connectivity.dll.mdb
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\crc64cea48322b3427ae9\ConnectivityChangeBroadcastReceiver.java

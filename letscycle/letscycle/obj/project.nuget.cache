@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qEzEMrHRVp7cso3OUg9Q7BrB6vVzargJZr0kwEf/5/CNReysUPRRt1CGLOy6TXE5GXgw4/EceoHs2JXY8viB2w==",
+  "dgSpecHash": "BMNPSxs4kF/0bsfsMT2vFlR+mm+1pvFVcovSqHKoebfMX0JrHnmR4mBiHhLLWo1KP88AloYN7nWDyVQJWQs/kQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
   "expectedPackageFiles": [
@@ -82,6 +82,7 @@
     "C:\\Users\\ch\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\ch\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\ch\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\ch\\.nuget\\packages\\xam.plugin.connectivity\\3.2.0\\xam.plugin.connectivity.3.2.0.nupkg.sha512",
     "C:\\Users\\ch\\.nuget\\packages\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Users\\ch\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],

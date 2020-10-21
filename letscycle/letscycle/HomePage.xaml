@@ -16,13 +16,15 @@
                     <Label x:Name="airConditionLbl"  FontSize="15" TextColor="#353440"/>
                 </StackLayout>
             </StackLayout>
-            <StackLayout Padding="10" HorizontalOptions="Center">
-                <Label Text="Stacje Veturilo" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
-                <Label x:Name="stationsLbl" FontSize="25" TextColor="#353440" HorizontalOptions="Center"/>
-                <Label Text="Rowery Veturilo" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
-                <Label x:Name="bikesLbl" FontSize="25" TextColor="#353440" HorizontalOptions="Center"/>
-                <Label Text="Wolne rowery" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
-                <Label x:Name="freeBikesLbl" FontSize="25" TextColor="#353440" HorizontalOptions="Center"/>
+            <StackLayout HorizontalOptions="Center">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label x:Name="stationsLbl" Text="Test" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
+                    <Label x:Name="allBikes" Text="Test" FontSize="20" TextColor="#353440" HorizontalOptions="Center" Margin="50,0,50,0"/>
+                    <Label x:Name="freeBikes" Text="Test" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
+                </StackLayout>
+                <Frame CornerRadius="20" BorderColor="White" BackgroundColor="White">
+                    <WebView x:Name="Browser" HeightRequest="300" WidthRequest="300" BackgroundColor="Black" />
+                </Frame>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

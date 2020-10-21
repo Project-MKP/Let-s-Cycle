@@ -12,6 +12,8 @@ public class MonoPackageManager_Resources {
 		"letscycle.dll",
 		"MySql.Data.dll",
 		"MySqlConnector.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
 		"Renci.SshNet.dll",
 		"SshNet.Security.Cryptography.dll",
 		"System.Configuration.ConfigurationManager.dll",

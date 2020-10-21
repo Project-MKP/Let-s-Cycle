@@ -9,7 +9,6 @@ namespace letscycle
         public App()
         {
             InitializeComponent();
-
             MainPage = new Tabbed();
         }
 
