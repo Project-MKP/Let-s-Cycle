@@ -23,7 +23,9 @@ namespace letscycle
             myTracksList = ude.ReadUserData(myTracksList.ToList());
             myTrackListView.ItemsSource = null;
             myTrackListView.ItemsSource = myTracksList;
-            BindingContext = this;
+
+            todayBikers.Text = CountTodaysBikers();
+            yearBikers.Text = CountYearBikers();
         }
 
         private void removeTrackBtn_Clicked(object sender, System.EventArgs e)
@@ -31,6 +33,26 @@ namespace letscycle
             myTracksList = ude.RemoveTrack(myTrackListView.SelectedItem as Track, myTracksList.ToList());
             myTrackListView.ItemsSource = null;
             myTrackListView.ItemsSource = myTracksList;
+        }
+
+        private string CountTodaysBikers()
+        {
+            int bikers = 0;
+            foreach(Track track in myTracksList)
+            {
+                bikers += int.Parse(track.bikersToday);
+            }
+            return bikers.ToString();
+        }
+
+        private string CountYearBikers()
+        {
+            int bikers = 0;
+            foreach (Track track in myTracksList)
+            {
+                bikers += int.Parse(track.bikersToday) + 300;
+            }
+            return bikers.ToString();
         }
     }
 }

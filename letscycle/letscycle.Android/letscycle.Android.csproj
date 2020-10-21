@@ -142,7 +142,7 @@
     <AndroidResource Include="Resources\drawable\Wiertnicza.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Zwirki_i_Wigury_i_Trojdena.PNG" />
+    <AndroidResource Include="Resources\drawable\Zwirki_i_Wigury_oraz_Trojdena.PNG" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Aleje_Jerozolimskie_i_plac_Zawiszy.PNG" />

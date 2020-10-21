@@ -10,12 +10,14 @@
             <Label Text="About us"
                    TextColor="#353440"
                    Margin="0,30,0,0"
-                   FontSize="20"
-                   HorizontalOptions="Center"/>
+                   FontSize="30"
+                   HorizontalOptions="Center"
+                   BackgroundColor="#F2C299"
+                   Padding="5"/>
 
             <Label
                 Padding="30"
-                Text="We are real man. We are ciapaks of progreming. If Ju lajk ołur sajt dżust visit it. A tak pzoa tym to KURWY I SMIECEI, Z WARSZAWY NIE WYJEDZIECIE"
+                Text="We are real man. We are ciapaks of progreming. If Ju lajk ołur sajt dżust visit it."
                 TextColor="#353440" 
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand"
@@ -29,7 +31,8 @@
                     <FormattedString>
                         <Span Text="Visit our site"
                               TextColor="#353440"
-                              TextDecorations="Underline">
+                              TextDecorations="Underline"
+                              BackgroundColor="#F2C299">
                             <Span.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding TapCommand}" CommandParameter="https://project-mkp.5v.pl" />
                             </Span.GestureRecognizers>

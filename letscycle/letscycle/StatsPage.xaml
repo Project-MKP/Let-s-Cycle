@@ -11,17 +11,27 @@
                 TextColor="#353440"
                 HorizontalOptions="CenterAndExpand" 
                 Margin="0,30,0,0"
-                FontSize="30"/>
+                FontSize="30"
+                BackgroundColor="#F2C299"
+                Padding="5"/>
 
             <StackLayout HorizontalOptions="Center" Grid.Row="1" Spacing="3" Margin="0,20,0,0"  Orientation="Horizontal" >
-                <Label Text="Bikers today:" FontSize="20" Margin="0,0,20,0" TextColor="#353440"/>
-                <Label Text="Bikers this year:"  FontSize="20" Margin="30,0,0,0" TextColor="#353440"/>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Bikers today:" FontSize="17" Margin="0,0,20,0" TextColor="#353440"/>
+                    <Label x:Name="todayBikers" Text="{Binding bikersToday}" FontSize="20" TextColor="#353440" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Bikers this year:"  FontSize="17" Margin="30,0,0,0" TextColor="#353440"/>
+                    <Label x:Name="yearBikers" Text="{Binding bikersYear}" FontSize="20" TextColor="#353440" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Margin="20,30,0,0">
                 <Label Text="My Tracks"
                 TextColor="#353440"
-                FontSize="20"/>
+                FontSize="20"
+                BackgroundColor="#F2C299"
+                Padding="5"/>
                 <Button
                 Text="-"
                 x:Name="removeTrackBtn"

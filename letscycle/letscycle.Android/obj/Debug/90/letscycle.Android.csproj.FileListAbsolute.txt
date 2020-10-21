@@ -2461,7 +2461,6 @@ C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debu
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\targowa_i_dworzec_wilenski.png
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\towarowa_i_lucka.png
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\wiertnicza.png
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\zwirki_i_wigury_i_trojdena.png
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\aleje_jerozolimskie_i_plac_zawiszy.png
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\banacha_oraz_zwirki_i_wigury.png
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\delete.png
@@ -2469,3 +2468,4 @@ C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debu
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\home.png
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\add.png
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\bike.png
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\zwirki_i_wigury_oraz_trojdena.png

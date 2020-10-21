@@ -8417,7 +8417,7 @@ namespace letscycle.Droid
 			public const int Wiertnicza = 2131165197;
 			
 			// aapt resource value: 0x7F07000E
-			public const int Zwirki_i_Wigury_i_Trojdena = 2131165198;
+			public const int Zwirki_i_Wigury_oraz_Trojdena = 2131165198;
 			
 			static Drawable()
 			{

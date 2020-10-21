@@ -31,6 +31,7 @@ namespace letscycle
         {
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             string filename = Path.Combine(path, "userdata.txt");
+
             if (File.Exists(filename))
             {
                 using (var streamReader = new StreamReader(filename))

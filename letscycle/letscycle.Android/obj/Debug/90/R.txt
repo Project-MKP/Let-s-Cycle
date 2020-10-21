@@ -998,7 +998,7 @@ int drawable tooltip_frame_dark 0x7f070086
 int drawable tooltip_frame_light 0x7f070087
 int drawable towarowa_i_lucka 0x7f070088
 int drawable wiertnicza 0x7f070089
-int drawable zwirki_i_wigury_i_trojdena 0x7f07008a
+int drawable zwirki_i_wigury_oraz_trojdena 0x7f07008a
 int id ALT 0x7f080000
 int id CTRL 0x7f080001
 int id FUNCTION 0x7f080002
