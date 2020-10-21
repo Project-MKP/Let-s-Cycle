@@ -92,3 +92,4 @@ C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netsta
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.dll
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\ref\letscycle.dll
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.pdb
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.csprojAssemblyReference.cache

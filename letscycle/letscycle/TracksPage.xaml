@@ -43,7 +43,7 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <StackLayout Orientation="Horizontal">
-                                        <Frame CornerRadius="20" Padding="0" IsClippedToBounds="True">
+                                    <Frame CornerRadius="20" Padding="0" IsClippedToBounds="True">
                                         <Image Grid.RowSpan="2" Source="{Binding imgPath}"></Image>
                                     </Frame>
                                         <StackLayout Orientation="Vertical">
