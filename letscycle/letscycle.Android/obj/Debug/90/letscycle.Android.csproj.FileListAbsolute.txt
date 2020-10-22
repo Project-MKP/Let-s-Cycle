@@ -2469,6 +2469,15 @@ C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debu
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\add.png
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\bike.png
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\zwirki_i_wigury_oraz_trojdena.png
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.Android.dll
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.Android.pdb
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle.apk
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle.aab
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle-Signed.aab
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle-Signed.apk
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle-Signed.apk.idsig
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.dll
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.pdb
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\build.props
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\adb.props
@@ -2479,15 +2488,6 @@ C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res.fla
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\R.txt
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\R.cs.flag
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\letscycle.Android.csproj.CoreCompileInputs.cache
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.Android.dll
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.Android.pdb
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle.apk
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle.aab
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle-Signed.aab
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle-Signed.apk
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle-Signed.apk.idsig
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.dll
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.pdb
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\XamlC.stamp
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\letscycle.Android.csproj.CopyComplete
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\letscycle.Android.dll

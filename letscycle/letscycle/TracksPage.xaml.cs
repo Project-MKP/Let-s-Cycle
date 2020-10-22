@@ -29,13 +29,27 @@ namespace letscycle
             conn = new SqlConnector();
             tracksList =  conn.Connect(connStr, query);
 
+            myTracks = ude.ReadUserData(myTracks);
+
             BindingContext = this;
         }
 
         private void addTrackBtn_Clicked(object sender, System.EventArgs e)
         {
-            myTracks.Add(trackListView.SelectedItem as Track);
-            ude.SaveTracksToFile(myTracks);
+            List<Track> checkList = new List<Track>();
+            checkList = ude.ReadUserData(checkList);
+            Track track = trackListView.SelectedItem as Track;
+
+            if (!checkList.Contains(track))
+            {
+                checkList.Add(track);
+                ude.ClearFile();
+                ude.SaveTracksToFile(checkList);
+            }
+            else
+            {
+                DisplayAlert("Error!", "You already have this station in your list!", "Ok i will kiss your feet");
+            }
         }
     }
 }

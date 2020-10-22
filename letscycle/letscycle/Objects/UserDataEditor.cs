@@ -27,7 +27,7 @@ namespace letscycle
             }
         }
 
-        public  List<Track> ReadUserData(List<Track> list)
+        public List<Track> ReadUserData(List<Track> list)
         {
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             string filename = Path.Combine(path, "userdata.txt");
@@ -42,10 +42,10 @@ namespace letscycle
                         string[] element = line.Split('|');
 
                         Track track = new Track() { imgPath = element[0], street = element[1], bikersToday = element[2] };
-                        if (!list.Contains(track))
+                        if(!list.Contains(track))
                         {
                             list.Add(track);
-                        }
+                        } 
                     }
                 }
             }
@@ -63,6 +63,13 @@ namespace letscycle
 
             SaveTracksToFile(list);
             return list;
+        }
+
+        public void ClearFile()
+        {
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+            string filename = Path.Combine(path, "userdata.txt");
+            using (FileStream fs = new FileStream(filename, FileMode.Truncate)) { }
         }
     }
 }

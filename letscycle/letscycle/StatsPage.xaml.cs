@@ -11,20 +11,20 @@ namespace letscycle
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StatsPage : ContentPage
     {
-        public IList<Track> myTracksList { get; set; }
+        public List<Track> myTracksList { get; set; }
         UserDataEditor ude;
 
         public StatsPage()
         {
             InitializeComponent();
+
             ude = new UserDataEditor();
             myTracksList = new List<Track>();
+        }
 
-            myTracksList = ude.ReadUserData(myTracksList.ToList());
-            myTrackListView.ItemsSource = null;
-            myTrackListView.ItemsSource = myTracksList;
-
-            todayBikers.Text = CountTodaysBikers();
+        protected async override void OnAppearing()
+        {
+            RefreshList();
         }
 
         private void removeTrackBtn_Clicked(object sender, System.EventArgs e)
@@ -32,6 +32,8 @@ namespace letscycle
             myTracksList = ude.RemoveTrack(myTrackListView.SelectedItem as Track, myTracksList.ToList());
             myTrackListView.ItemsSource = null;
             myTrackListView.ItemsSource = myTracksList;
+
+            todayBikers.Text = CountTodaysBikers();
         }
 
         private string CountTodaysBikers()
@@ -42,6 +44,16 @@ namespace letscycle
                 bikers += int.Parse(track.bikersToday);
             }
             return bikers.ToString();
+        }
+
+        public void RefreshList()
+        {
+            myTracksList.Clear();
+            myTracksList = ude.ReadUserData(myTracksList);
+            myTrackListView.ItemsSource = null;
+            myTrackListView.ItemsSource = myTracksList;
+
+            todayBikers.Text = CountTodaysBikers();
         }
     }
 }

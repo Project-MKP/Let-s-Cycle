@@ -7,7 +7,7 @@
              x:Class="letscycle.HomePage">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <Frame BackgroundColor="White" CornerRadius="20" Margin="15,5,15,0">
+            <Frame BackgroundColor="White" CornerRadius="20" Margin="10,5,10,0">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0" Margin="0,0,30,0">
                     <Image x:Name="weatherImg" WidthRequest="140" HeightRequest="140"/>
                     <StackLayout Orientation="Vertical" VerticalOptions="End" Margin="10,0,0,20">
@@ -26,15 +26,15 @@
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
                             <StackLayout Orientation="Vertical">
                                 <Label x:Name="stationsLbl" Text="Test" FontSize="16" TextColor="#353440" HorizontalOptions="Center"/>
-                                <Label Text="Stacji Veturilo" FontSize="12" TextColor="#353440" HorizontalOptions="Center"/>
+                                <Label Text="Veturilo stations" FontSize="12" TextColor="#353440" HorizontalOptions="Center"/>
                             </StackLayout>
                             <StackLayout Orientation="Vertical">
                                 <Label x:Name="allBikesLbl" Text="Test" FontSize="16" TextColor="#353440" HorizontalOptions="Center" Margin="30,0,30,0"/>
-                                <Label Text="Rowerów" FontSize="12" TextColor="#353440" HorizontalOptions="Center"/>
+                                <Label Text="Bikes" FontSize="12" TextColor="#353440" HorizontalOptions="Center"/>
                             </StackLayout>
                             <StackLayout Orientation="Vertical">
                                 <Label x:Name="freeBikesLbl" Text="Test" FontSize="16" TextColor="#353440" HorizontalOptions="Center"/>
-                                <Label Text="Wolnych rowerów" FontSize="12" TextColor="#353440" HorizontalOptions="Center"/>
+                                <Label Text="Free Bikes" FontSize="12" TextColor="#353440" HorizontalOptions="Center"/>
                             </StackLayout>
                         </StackLayout>
                     </StackLayout>
