@@ -91,7 +91,8 @@ namespace letscycle
             else
             {
                 toUserLbl.TextColor = Color.FromHex("#F03925");
-                return "Crazy weather";
+                maskLbl.Opacity = 0;
+                return "Better stay home!";
             }
         }
     }

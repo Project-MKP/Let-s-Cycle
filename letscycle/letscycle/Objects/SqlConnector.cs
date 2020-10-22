@@ -18,16 +18,23 @@ namespace letscycle
             if (current == NetworkAccess.Internet)
             {
                 using var con = new MySqlConnection(cs);
-                con.Open();
-                string sql = query;
-                using var cmd = new MySqlCommand(sql, con);
-
-                using MySqlDataReader rdr = cmd.ExecuteReader();
-                while (rdr.Read())
+                try
                 {
-                    expList.Add(new Track() { imgPath = rdr.GetString(1).Replace(" ", "_") + ".png", street = rdr.GetString(1), bikersToday = rdr.GetString(2) });
-                }
+                    con.Open();
+                
+                    string sql = query;
+                    using var cmd = new MySqlCommand(sql, con);
 
+                    using MySqlDataReader rdr = cmd.ExecuteReader();
+                    while (rdr.Read())
+                    {
+                     expList.Add(new Track() { imgPath = rdr.GetString(1).Replace(" ", "_") + ".png", street = rdr.GetString(1), bikersToday = rdr.GetString(2) });
+                    }
+                }
+                catch 
+                {
+                    return null;
+                }
             }
             return expList;
         }
@@ -37,19 +44,27 @@ namespace letscycle
             List<string> weatherData = new List<string>(); //temperatura, pogoda, powietrze, obrazek
 
             using var con = new MySqlConnection(cs);
-            con.Open();
-            using var cmd = new MySqlCommand(query, con);
-            using MySqlDataReader rdr = cmd.ExecuteReader();
-
-            while (rdr.Read())
+            try
             {
-                weatherData.Add(rdr.GetString(1));
-                weatherData.Add(rdr.GetString(2));
-                weatherData.Add(rdr.GetString(3));
-                weatherData.Add(rdr.GetString(4));
+                con.Open();
+            
+                using var cmd = new MySqlCommand(query, con);
+                using MySqlDataReader rdr = cmd.ExecuteReader();
+
+                while (rdr.Read())
+                {
+                    weatherData.Add(rdr.GetString(1));
+                    weatherData.Add(rdr.GetString(2));
+                    weatherData.Add(rdr.GetString(3));
+                    weatherData.Add(rdr.GetString(4));
+                }
+                con.Close();
+                return weatherData;
             }
-            con.Close();
-            return weatherData;
+            catch 
+            {
+                return null;
+            }
         }
 
         public List<string> GetVeturilo(string cs, string query)
@@ -57,18 +72,25 @@ namespace letscycle
             List<string> veturiloData = new List<string>(); //stacje, rowery, wolner rowery
 
             using var con = new MySqlConnection(cs);
-            con.Open();
-            using var cmd = new MySqlCommand(query, con);
-            using MySqlDataReader rdr = cmd.ExecuteReader();
-
-            while (rdr.Read())
+            try
             {
-                veturiloData.Add(rdr.GetString(1));
-                veturiloData.Add(rdr.GetString(2));
-                veturiloData.Add(rdr.GetString(3));
+                con.Open();
+                using var cmd = new MySqlCommand(query, con);
+                using MySqlDataReader rdr = cmd.ExecuteReader();
+
+                while (rdr.Read())
+                {
+                    veturiloData.Add(rdr.GetString(1));
+                    veturiloData.Add(rdr.GetString(2));
+                    veturiloData.Add(rdr.GetString(3));
+                }
+                con.Close();
+                return veturiloData;
             }
-            con.Close();
-            return veturiloData;
+            catch
+            {
+                return null;
+            }
         }
     }
 }

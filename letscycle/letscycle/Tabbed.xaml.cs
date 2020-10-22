@@ -9,7 +9,7 @@ namespace letscycle
         public Tabbed()
         {
             InitializeComponent();
-            BackgroundColor = Color.FromHex("#E9F5F7");
+            BackgroundColor = Color.FromHex("#E1EEF0");
             BarBackgroundColor = Color.FromHex("#F2C299");
         }
     }
