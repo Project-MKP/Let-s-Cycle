@@ -36,14 +36,43 @@ namespace letscycle
             return expList;
         }
 
-        public List<Track> GetWeather(string cs, string query)
+        public List<string> GetWeather(string cs, string query)
         {
-            return null;
+            List<string> weatherData = new List<string>(); //temperatura, pogoda, powietrze, obrazek
+
+            using var con = new MySqlConnection(cs);
+            con.Open();
+            using var cmd = new MySqlCommand(query, con);
+            using MySqlDataReader rdr = cmd.ExecuteReader();
+
+            while (rdr.Read())
+            {
+                weatherData.Add(rdr.GetString(1));
+                weatherData.Add(rdr.GetString(2));
+                weatherData.Add(rdr.GetString(3));
+                weatherData.Add(rdr.GetString(4));
+            }
+            con.Close();
+            return weatherData;
         }
 
-        public List<Track> GetVeturilo(string cs, string query)
+        public List<string> GetVeturilo(string cs, string query)
         {
-            return null;
+            List<string> veturiloData = new List<string>(); //stacje, rowery, wolner rowery
+
+            using var con = new MySqlConnection(cs);
+            con.Open();
+            using var cmd = new MySqlCommand(query, con);
+            using MySqlDataReader rdr = cmd.ExecuteReader();
+
+            while (rdr.Read())
+            {
+                veturiloData.Add(rdr.GetString(1));
+                veturiloData.Add(rdr.GetString(2));
+                veturiloData.Add(rdr.GetString(3));
+            }
+            con.Close();
+            return veturiloData;
         }
     }
 }

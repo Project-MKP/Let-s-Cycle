@@ -33,7 +33,13 @@
                 BackgroundColor="#F2C299"
                 Padding="5"/>
                 <Button
-                Text="-"
+                Text="_"
+                FontSize="40"
+                ContentLayout="Top,1"
+                Padding="0,-31,0,0"
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
+                BackgroundColor="#00FFFFFF"
                 x:Name="removeTrackBtn"
                 WidthRequest="35"
                 HeightRequest="35"

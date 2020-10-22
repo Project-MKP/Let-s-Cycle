@@ -22,6 +22,12 @@
                 Padding="5"/>
                 <Button
                 Text="+"
+                FontSize="40"
+                ContentLayout="Top,1"
+                Padding="0,-12,0,0"
+                BackgroundColor="#00FFFFFF"
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
                 x:Name="addTrackBtn"
                 WidthRequest="35"
                 HeightRequest="35"

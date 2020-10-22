@@ -7,7 +7,7 @@
              x:Class="letscycle.HomePage">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="10" Margin="0,40,0,0">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="10" Margin="0,0,30,0">
                 <Image x:Name="weatherImg" WidthRequest="140" HeightRequest="140"/>
                 <StackLayout Orientation="Vertical" VerticalOptions="End" Margin="10,0,0,20">
                     <Label x:Name="tempLbl" FontSize="25" TextColor="#353440"/>
@@ -18,9 +18,18 @@
             </StackLayout>
             <StackLayout HorizontalOptions="Center">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Label x:Name="stationsLbl" Text="Test" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
-                    <Label x:Name="allBikes" Text="Test" FontSize="20" TextColor="#353440" HorizontalOptions="Center" Margin="50,0,50,0"/>
-                    <Label x:Name="freeBikes" Text="Test" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
+                    <StackLayout Orientation="Vertical">
+                        <Label x:Name="stationsLbl" Text="Test" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
+                        <Label Text="Stacji Veturilo" FontSize="15" TextColor="#353440" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label x:Name="allBikesLbl" Text="Test" FontSize="20" TextColor="#353440" HorizontalOptions="Center" Margin="30,0,30,0"/>
+                        <Label Text="Rowerów" FontSize="15" TextColor="#353440" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical">
+                        <Label x:Name="freeBikesLbl" Text="Test" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
+                        <Label Text="Wolnych rowerów" FontSize="15" TextColor="#353440" HorizontalOptions="Center"/>
+                    </StackLayout>
                 </StackLayout>
                 <Frame CornerRadius="20" BorderColor="White" BackgroundColor="White">
                     <WebView x:Name="Browser" HeightRequest="300" WidthRequest="300" BackgroundColor="Black" />
