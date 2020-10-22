@@ -204,6 +204,14 @@ C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\D
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\letscycle.iOS.csproj.CopyComplete
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\letscycle.iOS.exe
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\letscycle.iOS.pdb
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\optimized\
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\letscycle.iOS.csprojAssemblyReference.cache
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\letscycle.iOS.csproj.CoreCompileInputs.cache
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\letscycle.iOS.exe
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\letscycle.iOS.pdb
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\BouncyCastle.Crypto.dll
@@ -235,6 +243,10 @@ C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\System.
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\System.Security.Permissions.dll
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\System.Security.Principal.Windows.dll
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\Plugin.Connectivity.Abstractions.dll
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\Plugin.Connectivity.dll
+C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\Plugin.Connectivity.pdb
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
@@ -280,14 +292,6 @@ C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\letscyc
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\letscycle.pdb
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\optimized\
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\letscycle.iOS.csprojAssemblyReference.cache
-C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\letscycle.iOS.csproj.CoreCompileInputs.cache
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\XamlC.stamp
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\letscycle.iOS.csproj.CopyComplete
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle.iOS\obj\iPhone\Debug\letscycle.iOS.exe

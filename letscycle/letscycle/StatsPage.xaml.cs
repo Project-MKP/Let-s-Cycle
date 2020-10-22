@@ -25,7 +25,6 @@ namespace letscycle
             myTrackListView.ItemsSource = myTracksList;
 
             todayBikers.Text = CountTodaysBikers();
-            yearBikers.Text = CountYearBikers();
         }
 
         private void removeTrackBtn_Clicked(object sender, System.EventArgs e)
@@ -41,16 +40,6 @@ namespace letscycle
             foreach(Track track in myTracksList)
             {
                 bikers += int.Parse(track.bikersToday);
-            }
-            return bikers.ToString();
-        }
-
-        private string CountYearBikers()
-        {
-            int bikers = 0;
-            foreach (Track track in myTracksList)
-            {
-                bikers += int.Parse(track.bikersToday) + 300;
             }
             return bikers.ToString();
         }

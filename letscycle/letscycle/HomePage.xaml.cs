@@ -37,6 +37,8 @@ namespace letscycle
             weatherLbl.Text = weatherData[1];
             airConditionLbl.Text = weatherData[2];
 
+            toUserLbl.Text = CreateToUserMessage();
+
             Task.Factory.StartNew(() =>
             {
                 while (true)
@@ -45,8 +47,7 @@ namespace letscycle
                     Thread.Sleep(15000);
                 }
             });
-
-            Browser.Source = "https://www.veturilo.waw.pl/mapa-stacji-iframe/";
+             Browser.Source = "https://www.veturilo.waw.pl/mapa-stacji-iframe/";
         }
 
         public async void checkConnection()
@@ -65,6 +66,33 @@ namespace letscycle
             stationsLbl.Text = veturiloData[0];
             allBikesLbl.Text = veturiloData[1];
             freeBikesLbl.Text = veturiloData[2];
+        }
+
+
+        private string CreateToUserMessage()
+        {
+            int temp = int.Parse(weatherData[0].Remove(weatherData[0].Length -2, 2));
+
+            if ((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp > 15)
+            {
+                toUserLbl.TextColor = Color.FromHex("#05E610");
+                return "Perfect weather for bike!";
+            }
+            else if((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp > 5)
+            {
+                toUserLbl.TextColor = Color.FromHex("#25B9EB");
+                return "Good weather for bike. Remember to wear something warm!";
+            }
+            else if ((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp < 5)
+            {
+                toUserLbl.TextColor = Color.FromHex("#42A3EB");
+                return "Good weather for bike. Remember to wear warm jacket!";
+            }
+            else
+            {
+                toUserLbl.TextColor = Color.FromHex("#F03925");
+                return "Crazy weather";
+            }
         }
     }
 }

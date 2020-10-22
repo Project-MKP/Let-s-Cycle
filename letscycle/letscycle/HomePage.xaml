@@ -17,7 +17,8 @@
                 </StackLayout>
             </StackLayout>
             <StackLayout HorizontalOptions="Center">
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label x:Name="toUserLbl"  Text="Weather" FontSize="23" HorizontalOptions="Center" TextColor="#353440"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="10,0,0,0">
                     <StackLayout Orientation="Vertical">
                         <Label x:Name="stationsLbl" Text="Test" FontSize="20" TextColor="#353440" HorizontalOptions="Center"/>
                         <Label Text="Stacji Veturilo" FontSize="15" TextColor="#353440" HorizontalOptions="Center"/>
