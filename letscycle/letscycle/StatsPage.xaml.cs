@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Org.BouncyCastle.Utilities.Encoders;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -33,7 +35,7 @@ namespace letscycle
             myTrackListView.ItemsSource = null;
             myTrackListView.ItemsSource = myTracksList;
 
-            todayBikers.Text = CountTodaysBikers().ToString();
+            todayBikers.Text = CountTodaysBikers().ToString();   
         }
 
         private int CountTodaysBikers()
@@ -54,6 +56,16 @@ namespace letscycle
             myTrackListView.ItemsSource = myTracksList;
 
             todayBikers.Text = CountTodaysBikers().ToString();
+        }
+
+        private void removeTrackBtn_Pressed(object sender, EventArgs e)
+        {
+            removeTrackBtn.BackgroundColor = Color.FromHex("#DAE6E8");
+        }
+
+        private void removeTrackBtn_Released(object sender, EventArgs e)
+        {
+            removeTrackBtn.BackgroundColor = Color.Transparent;
         }
     }
 }

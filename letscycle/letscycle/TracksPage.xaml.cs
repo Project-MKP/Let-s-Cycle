@@ -66,5 +66,15 @@ namespace letscycle
             }
             return final;
         }
+
+        private void addTrackBtn_Pressed(object sender, EventArgs e)
+        {
+            addTrackBtn.BackgroundColor = Color.FromHex("#DAE6E8");
+        }
+
+        private void addTrackBtn_Released(object sender, EventArgs e)
+        {
+            addTrackBtn.BackgroundColor = Color.Transparent;
+        }
     }
 }

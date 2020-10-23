@@ -41,9 +41,12 @@
                 WidthRequest="35"
                 HeightRequest="35"
                 Margin="190,0,0,0"
-                Clicked="removeTrackBtn_Clicked"/>
+                Clicked="removeTrackBtn_Clicked"
+                Pressed="removeTrackBtn_Pressed"
+                Released="removeTrackBtn_Released"/>
+                
             </StackLayout>
-            <ListView x:Name="myTrackListView" ItemsSource="{Binding myTracksList}" HasUnevenRows="True" IsPullToRefreshEnabled="False" SeparatorVisibility="None">
+            <ListView x:Name="myTrackListView" ItemsSource="{Binding myTracksList}" HasUnevenRows="True" IsPullToRefreshEnabled="False" SeparatorVisibility="None" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

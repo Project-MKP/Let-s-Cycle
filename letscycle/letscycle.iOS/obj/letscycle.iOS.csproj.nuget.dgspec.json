@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj": {}
+    "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj": {
+    "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
         "projectName": "letscycle.iOS",
-        "projectPath": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
-        "packagesPath": "C:\\Users\\ch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle.iOS\\obj\\",
+        "projectPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
+        "packagesPath": "C:\\Users\\Krystian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Krystian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
-                "projectPath": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
+              "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+                "projectPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
               }
             }
           }
@@ -81,20 +81,21 @@
         }
       }
     },
-    "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+    "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "projectUniqueName": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
         "projectName": "letscycle",
-        "projectPath": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
-        "packagesPath": "C:\\Users\\ch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
+        "projectPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "packagesPath": "C:\\Users\\Krystian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Krystian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -160,7 +161,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

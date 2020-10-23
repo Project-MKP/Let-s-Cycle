@@ -6531,24 +6531,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ch\\.nuget\\packages\\": {},
+    "C:\\Users\\Krystian\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
       "projectName": "letscycle.Android",
-      "projectPath": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
-      "packagesPath": "C:\\Users\\ch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle.Android\\obj\\",
+      "projectPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
+      "packagesPath": "C:\\Users\\Krystian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Krystian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6562,8 +6562,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
-              "projectPath": "C:\\Users\\ch\\Desktop\\asd\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
+            "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+              "projectPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
             }
           }
         }
