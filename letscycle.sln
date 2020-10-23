@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letscycle.Android", "letscy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letscycle.iOS", "letscycle\letscycle.iOS\letscycle.iOS.csproj", "{96C8801F-3FCC-41A7-BC78-B5617058F794}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letscycle", "letscycle\letscycle\letscycle.csproj", "{CF3FE2E9-142C-4B38-BEDD-DDD4EEAE1F1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "letscycle", "letscycle\letscycle\letscycle.csproj", "{CF3FE2E9-142C-4B38-BEDD-DDD4EEAE1F1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

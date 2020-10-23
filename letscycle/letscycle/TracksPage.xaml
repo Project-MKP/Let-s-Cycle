@@ -34,7 +34,7 @@
                 Margin="140,0,0,0"
                 Clicked="addTrackBtn_Clicked"/>
             </StackLayout>
-            <ListView x:Name="trackListView" ItemsSource="{Binding tracksList}" HasUnevenRows="True" SeparatorVisibility="None">
+            <ListView x:Name="trackListView" ItemsSource="{Binding tracksList}" HasUnevenRows="True" IsPullToRefreshEnabled="False" SeparatorVisibility="None">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

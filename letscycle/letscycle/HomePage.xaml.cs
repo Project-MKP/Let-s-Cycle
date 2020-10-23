@@ -78,24 +78,28 @@ namespace letscycle
             if ((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp > 15)
             {
                 toUserLbl.TextColor = Color.FromHex("#05E610");
+                statusImg.Source = "biker.png";
                 return "Idealna pogoda na rower!";
             }
             else if((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp > 5)
             {
                 toUserLbl.TextColor = Color.FromHex("#25B9EB");
                 toUserLbl.FontSize = 16;
+                statusImg.Source = "cloud_biker.png";
                 return "Załóż coś na siebie!";
             }
             else if ((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp < 5)
             {
                 toUserLbl.TextColor = Color.FromHex("#42A3EB");
                 toUserLbl.FontSize = 16;
+                statusImg.Source = "cold_biker.png";
                 return "Nie zapomnij o ciepłej kurtce!";
             }
             else
             {
                 toUserLbl.TextColor = Color.FromHex("#F03925");
                 maskLbl.Opacity = 0;
+                statusImg.Source = "house.png";
                 return "Lepiej zostań w domu!";
             }
         }

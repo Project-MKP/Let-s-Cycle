@@ -7,7 +7,7 @@
              x:Class="letscycle.HomePage">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <Frame BackgroundColor="White" CornerRadius="20" Margin="20,5,20,0" HorizontalOptions="Center" VerticalOptions="Center">
+            <Frame BackgroundColor="White" CornerRadius="20" Margin="19,5,19,0" HorizontalOptions="Center" VerticalOptions="Center">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0" Margin="0,0,30,0">
                     <Image x:Name="weatherImg" WidthRequest="120" HeightRequest="120"/>
                     <StackLayout Orientation="Vertical" VerticalOptions="End" Margin="10,0,0,20">
@@ -18,22 +18,27 @@
                     </StackLayout>
                 </StackLayout>
             </Frame>
+            <Frame BackgroundColor="White" CornerRadius="20" Margin="20,5,20,0">
+                <StackLayout>
+                    <Image x:Name="statusImg" WidthRequest="70" HeightRequest="70"/>
+                    <Label x:Name="toUserLbl" FontSize="23" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                    <Label x:Name="maskLbl" Text="Weź ze sobą maseczkę!" FontSize="14" HorizontalOptions="Center" TextColor="#353440"/>
+                </StackLayout>
+            </Frame>
             <StackLayout HorizontalOptions="Center">
                 <Frame BackgroundColor="White" CornerRadius="20" Margin="15,5,15,0">
                     <StackLayout>
-                        <Label x:Name="toUserLbl" FontSize="23" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
-                        <Label x:Name="maskLbl" Text="Weź ze sobą maseczkę!" FontSize="14" HorizontalOptions="Center" TextColor="#353440"/>
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
                             <StackLayout Orientation="Vertical">
-                                <Label x:Name="stationsLbl" Text="Test" FontSize="16" TextColor="#353440" HorizontalOptions="Center"/>
+                                <Label x:Name="stationsLbl" Text="Test" FontSize="22" TextColor="#353440" HorizontalOptions="Center"/>
                                 <Label Text="Stacji Veturilo" FontSize="12" TextColor="#353440" HorizontalOptions="Center"/>
                             </StackLayout>
                             <StackLayout Orientation="Vertical">
-                                <Label x:Name="allBikesLbl" Text="Test" FontSize="16" TextColor="#353440" HorizontalOptions="Center" Margin="30,0,30,0"/>
+                                <Label x:Name="allBikesLbl" Text="Test" FontSize="22" TextColor="#353440" HorizontalOptions="Center" Margin="30,0,30,0"/>
                                 <Label Text="Rowerów" FontSize="12" TextColor="#353440" HorizontalOptions="Center"/>
                             </StackLayout>
                             <StackLayout Orientation="Vertical">
-                                <Label x:Name="freeBikesLbl" Text="Test" FontSize="16" TextColor="#353440" HorizontalOptions="Center"/>
+                                <Label x:Name="freeBikesLbl" Text="Test" FontSize="22" TextColor="#353440" HorizontalOptions="Center"/>
                                 <Label Text="Wolnych rowerów" FontSize="12" TextColor="#353440" HorizontalOptions="Center"/>
                             </StackLayout>
                         </StackLayout>
