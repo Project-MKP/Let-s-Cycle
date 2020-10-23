@@ -18,7 +18,7 @@
                     </StackLayout>
                 </StackLayout>
             </Frame>
-            <Frame BackgroundColor="White" CornerRadius="20" Margin="20,5,20,0">
+            <Frame BackgroundColor="White" CornerRadius="20" Margin="20,5,20,0" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
                 <StackLayout>
                     <Image x:Name="statusImg" WidthRequest="70" HeightRequest="70"/>
                     <Label x:Name="toUserLbl" FontSize="23" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
@@ -26,7 +26,7 @@
                 </StackLayout>
             </Frame>
             <StackLayout HorizontalOptions="Center">
-                <Frame BackgroundColor="White" CornerRadius="20" Margin="15,5,15,0">
+                <Frame BackgroundColor="White" CornerRadius="20" Margin="15,5,15,0" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
                     <StackLayout>
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
                             <StackLayout Orientation="Vertical">
