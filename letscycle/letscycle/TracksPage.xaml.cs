@@ -40,7 +40,8 @@ namespace letscycle
             checkList = ude.ReadUserData(checkList);
             Track track = trackListView.SelectedItem as Track;
 
-            if (!checkList.Contains(track))
+
+            if (!checkListElements(checkList, track))
             {
                 checkList.Add(track);
                 ude.ClearFile();
@@ -48,8 +49,22 @@ namespace letscycle
             }
             else
             {
-                DisplayAlert("Error!", "You already have this station in your list!", "Ok i will kiss your feet");
+                DisplayAlert("Błąd!", "Posiadasz już ten licznik w swojej liście!", "OK");
             }
+        }
+
+        private bool checkListElements(List<Track> list, Track track)
+        {
+            bool final = false;
+            foreach(Track t in list)
+            {
+                if((track.imgPath == t.imgPath) && (track.street == t.street) && (track.bikersToday == t.bikersToday))
+                {
+                    final = true;
+                    break;
+                }
+            }
+            return final;
         }
     }
 }

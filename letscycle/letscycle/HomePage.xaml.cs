@@ -26,18 +26,6 @@ namespace letscycle
         {
             InitializeComponent();
             checkConnection();
-            veturiloData = new List<string>();
-            weatherData = new List<string>();
-            sc = new SqlConnector();
-
-            weatherData = sc.GetWeather(connStr, sql1);
-
-            weatherImg.Source = weatherData[3];
-            tempLbl.Text = weatherData[0];
-            weatherLbl.Text = weatherData[1];
-            airConditionLbl.Text = weatherData[2];
-
-            toUserLbl.Text = CreateToUserMessage();
 
             Task.Factory.StartNew(() =>
             {
@@ -47,15 +35,29 @@ namespace letscycle
                     Thread.Sleep(15000);
                 }
             });
-             Browser.Source = "https://www.veturilo.waw.pl/mapa-stacji-iframe/";
         }
 
         public async void checkConnection()
         {
             if (!CrossConnectivity.Current.IsConnected)
             {
-                await DisplayAlert("No Internet Connection", "Please, check your internet connection.", "OK");
+                await DisplayAlert("Brak połączenia", "Sprawdź swoje połączenie z internetem.", "OK");
                 System.Diagnostics.Process.GetCurrentProcess().CloseMainWindow();
+            }
+            else
+            {
+                veturiloData = new List<string>();
+                weatherData = new List<string>();
+                sc = new SqlConnector();
+
+                weatherData = sc.GetWeather(connStr, sql1);
+
+                weatherImg.Source = weatherData[3];
+                tempLbl.Text = weatherData[0];
+                weatherLbl.Text = weatherData[1];
+                airConditionLbl.Text = weatherData[2];
+
+                toUserLbl.Text = CreateToUserMessage();
             }
         }
 
@@ -76,23 +78,25 @@ namespace letscycle
             if ((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp > 15)
             {
                 toUserLbl.TextColor = Color.FromHex("#05E610");
-                return "Perfect weather for bike!";
+                return "Pogoda idealna na rower!";
             }
             else if((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp > 5)
             {
                 toUserLbl.TextColor = Color.FromHex("#25B9EB");
-                return "Good weather for bike. Remember to wear something warm!";
+                toUserLbl.FontSize = 16;
+                return "Dobra pogoda na rower, nie zapomij o ciepłej bluzie!";
             }
             else if ((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp < 5)
             {
                 toUserLbl.TextColor = Color.FromHex("#42A3EB");
-                return "Good weather for bike. Remember to wear warm jacket!";
+                toUserLbl.FontSize = 16;
+                return "Dobra pogoda na rower, nie zapomnij o ciepłej kurtce!";
             }
             else
             {
                 toUserLbl.TextColor = Color.FromHex("#F03925");
                 maskLbl.Opacity = 0;
-                return "Better stay home!";
+                return "Lepiej zostań w domu!";
             }
         }
     }

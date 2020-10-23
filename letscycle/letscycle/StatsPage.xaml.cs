@@ -33,17 +33,17 @@ namespace letscycle
             myTrackListView.ItemsSource = null;
             myTrackListView.ItemsSource = myTracksList;
 
-            todayBikers.Text = CountTodaysBikers();
+            todayBikers.Text = CountTodaysBikers().ToString();
         }
 
-        private string CountTodaysBikers()
+        private int CountTodaysBikers()
         {
             int bikers = 0;
             foreach(Track track in myTracksList)
             {
                 bikers += int.Parse(track.bikersToday);
             }
-            return bikers.ToString();
+            return bikers;
         }
 
         public void RefreshList()
@@ -53,7 +53,7 @@ namespace letscycle
             myTrackListView.ItemsSource = null;
             myTrackListView.ItemsSource = myTracksList;
 
-            todayBikers.Text = CountTodaysBikers();
+            todayBikers.Text = CountTodaysBikers().ToString();
         }
     }
 }

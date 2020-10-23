@@ -7,7 +7,7 @@
              x:Class="letscycle.StatsPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Statistics"
+            <Label Text="Statystyki"
                 TextColor="#353440"
                 HorizontalOptions="CenterAndExpand" 
                 Margin="0,30,0,0"
@@ -18,7 +18,8 @@
             <StackLayout HorizontalOptions="Center" Grid.Row="1" Spacing="3" Margin="0,20,0,0"  Orientation="Horizontal" >
                 <StackLayout Orientation="Vertical">
                     <Label x:Name="todayBikers" FontSize="20" TextColor="#353440" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
-                    <Label Text="Bikers today" FontSize="15" TextColor="#353440" HorizontalOptions="CenterAndExpand"/>
+                    <Label Text="Rowerzystów dziś" FontSize="15" TextColor="#353440" HorizontalOptions="CenterAndExpand"/>
+                    <Label Text="Nie bądź gorszy, wsiadaj na rower!" TextColor="#353440"></Label>
                 </StackLayout>
             </StackLayout>
 
@@ -59,9 +60,8 @@
                                     <Image Grid.RowSpan="2" Source="{Binding imgPath}"></Image>
                                     <Label Grid.Column="1" Grid.Row="0" Text="{Binding street}" FontSize="17" LineBreakMode="WordWrap" WidthRequest="100" TextColor="#353440"></Label>
                                     <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
-                                        <Label Text="Bikers Today:" TextColor="#353440"></Label>
+                                        <Label Text="Rowerzystów dzisiaj:" TextColor="#353440"></Label>
                                         <Label Text="{Binding bikersToday}" TextColor="#353440"></Label>
-                                        <Label Text="Don't be worse, get on your bike!" TextColor="#353440"></Label>
                                     </StackLayout>
                                 </Grid>
                             </Frame>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="letscycle.Map">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame CornerRadius="20" BorderColor="White" BackgroundColor="White" Margin="15,5,15,0">
+                <WebView x:Name="Browser" WidthRequest="250" HeightRequest="510" BackgroundColor="Black" />
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
