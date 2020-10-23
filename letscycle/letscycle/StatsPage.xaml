@@ -24,7 +24,7 @@
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Margin="20,30,0,0">
-                <Label Text="My Tracks"
+                <Label Text="Moje trasy"
                 TextColor="#353440"
                 FontSize="20"
                 BackgroundColor="#F2C299"

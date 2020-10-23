@@ -8,7 +8,7 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Label Text="Czym jest Let's Cycle"
+            <Label Text="Czym jest aplikacja Let's Cycle?"
                    TextColor="#353440"
                    Margin="0,30,0,0"
                    FontSize="15"
@@ -18,7 +18,7 @@
 
             <Label
                 Padding="35"
-                Text="Let's Cycle to apliakcja pomagająca zmotywować Cię do poruszania się na rowerze."
+                Text="Let's Cycle to apliakcja pomagająca zmotywować Cię do jazdy na rowerze."
                 TextColor="#353440" 
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand"
@@ -35,7 +35,7 @@
 
             <Label
                 Padding="30"
-                Text="Jesteśmy grupą uczniów szkoły średniej. Uwielbiamy tworzyć kod, więc staramy się włożyć w nasze apliakcje jak najwięcej serca! Jeżeli chcesz dowiedzieć się więcej o Proejct-MKP lub przejżeć nasze poprzenie projekty, odwiedź naszą stronę internetową!"
+                Text="Jesteśmy grupą uczniów szkoły średniej. Uwielbiamy tworzyć kod, więc staramy się włożyć w nasze apliakcje jak najwięcej serca! Jeżeli chcesz dowiedzieć się więcej o Proejct-MKP lub przejżeć nasze poprzednie projekty, odwiedź naszą stronę internetową!"
                 TextColor="#353440" 
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand"

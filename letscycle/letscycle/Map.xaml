@@ -3,10 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="letscycle.Map">
     <ContentPage.Content>
-        <StackLayout>
-            <Frame CornerRadius="20" BorderColor="White" BackgroundColor="White" Margin="15,5,15,0">
-                <WebView x:Name="Browser" WidthRequest="250" HeightRequest="510" BackgroundColor="Black" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Frame BackgroundColor="White" CornerRadius="20" Margin="5,5,5,5" Grid.Row="0" Grid.Column="0">
+                <WebView x:Name="Browser" Grid.Row="0" Grid.Column="0" BackgroundColor="black" />
             </Frame>
-        </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

@@ -69,7 +69,10 @@ namespace letscycle
         {
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             string filename = Path.Combine(path, "userdata.txt");
-            using (FileStream fs = new FileStream(filename, FileMode.Truncate)) { }
+            if (File.Exists(filename))
+            {
+                using (FileStream fs = new FileStream(filename, FileMode.Truncate)) { }
+            }
         }
     }
 }

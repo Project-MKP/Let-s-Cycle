@@ -63,7 +63,6 @@ C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2
 C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\HelpPage.xaml.g.cs
 C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
-C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\StatsPage.xaml.g.cs
 C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\Tabbed.xaml.g.cs
 C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\TracksPage.xaml.g.cs
@@ -112,3 +111,4 @@ C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\ref
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.pdb
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\Map.xaml.g.cs
 C:\Users\ch\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.csprojAssemblyReference.cache
+C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\Map.xaml.g.cs

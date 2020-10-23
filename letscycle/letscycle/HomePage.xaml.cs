@@ -78,19 +78,19 @@ namespace letscycle
             if ((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp > 15)
             {
                 toUserLbl.TextColor = Color.FromHex("#05E610");
-                return "Pogoda idealna na rower!";
+                return "Idealna pogoda na rower!";
             }
             else if((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp > 5)
             {
                 toUserLbl.TextColor = Color.FromHex("#25B9EB");
                 toUserLbl.FontSize = 16;
-                return "Dobra pogoda na rower, nie zapomij o ciepłej bluzie!";
+                return "Załóż coś na siebie!";
             }
             else if ((weatherData[1] != "Deszcz" && weatherData[1] != "Przelotne opady" && weatherData[1] != "Częściowo słonecznie z przelotnymi opadami") && temp < 5)
             {
                 toUserLbl.TextColor = Color.FromHex("#42A3EB");
                 toUserLbl.FontSize = 16;
-                return "Dobra pogoda na rower, nie zapomnij o ciepłej kurtce!";
+                return "Nie zapomnij o ciepłej kurtce!";
             }
             else
             {
