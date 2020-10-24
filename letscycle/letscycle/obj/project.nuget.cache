@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hE8tTnd/Aw+FZscfg4CoT6PRnyvW3Pmvqd+S/sTgLGQ1g4dpriFceAlUKhfO1w59FxnxPCxYZuB0tRstqaColQ==",
+  "dgSpecHash": "BMNPSxs4kF/0bsfsMT2vFlR+mm+1pvFVcovSqHKoebfMX0JrHnmR4mBiHhLLWo1KP88AloYN7nWDyVQJWQs/kQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+  "projectFilePath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ch\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\ch\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

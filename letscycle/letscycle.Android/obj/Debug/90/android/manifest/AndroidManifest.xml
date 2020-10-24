@@ -7,7 +7,8 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="letscycle.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="letscycle" android:theme="@style/MainTheme" android:name="crc64d964a1c527203a8e.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Let's Cycle" android:theme="@style/MainTheme" android:name="crc64d964a1c527203a8e.MainActivity" />
+    <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="crc64d964a1c527203a8e.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

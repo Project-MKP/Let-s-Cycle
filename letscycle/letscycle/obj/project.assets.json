@@ -5316,11 +5316,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+      "projectUniqueName": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
       "projectName": "letscycle",
-      "projectPath": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+      "projectPath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
       "packagesPath": "C:\\Users\\ch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
+      "outputPath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -49,7 +49,7 @@ namespace letscycle
             }
             else
             {
-                DisplayAlert("Błąd!", "Posiadasz już ten licznik w swojej liście!", "OK");
+                DisplayAlert("Błąd!", "Posiadasz już ten licznik na swojej liście!", "OK");
             }
         }
 

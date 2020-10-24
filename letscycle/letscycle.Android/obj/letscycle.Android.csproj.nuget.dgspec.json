@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj": {}
+    "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj": {
+    "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
+        "projectUniqueName": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
         "projectName": "letscycle.Android",
-        "projectPath": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
+        "projectPath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
         "packagesPath": "C:\\Users\\ch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle.Android\\obj\\",
+        "outputPath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
-                "projectPath": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
+              "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+                "projectPath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+    "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "projectUniqueName": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
         "projectName": "letscycle",
-        "projectPath": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "projectPath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
         "packagesPath": "C:\\Users\\ch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ch\\Desktop\\klon kuriwa\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
+        "outputPath": "C:\\Users\\ch\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
