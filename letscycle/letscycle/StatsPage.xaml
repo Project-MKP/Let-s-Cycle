@@ -13,13 +13,37 @@
                 Margin="0,30,0,0"
                 FontSize="30"
                 BackgroundColor="#F2C299"
-                Padding="5"/>
+                Padding="5">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
 
             <StackLayout HorizontalOptions="Center" Grid.Row="1" Spacing="3" Margin="0,20,0,0"  Orientation="Horizontal" >
                 <StackLayout Orientation="Vertical">
-                    <Label x:Name="todayBikers" FontSize="20" TextColor="#353440" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
-                    <Label Text="Rowerzystów dziś" FontSize="15" TextColor="#353440" HorizontalOptions="CenterAndExpand"/>
-                    <Label Text="Nie bądź gorszy, wsiadaj na rower!" TextColor="#353440"></Label>
+                    <Label x:Name="todayBikers" FontSize="20" TextColor="#353440" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                            </OnPlatform>
+                        </Label.FontFamily>
+                    </Label>
+                    <Label Text="Rowerzystów dziś" FontSize="15" TextColor="#353440" HorizontalOptions="CenterAndExpand">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                            </OnPlatform>
+                        </Label.FontFamily>
+                    </Label>
+                    <Label Text="Nie bądź gorszy, wsiądź na rower!" TextColor="#353440">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                            </OnPlatform>
+                        </Label.FontFamily>
+                    </Label>
                 </StackLayout>
             </StackLayout>
 
@@ -28,7 +52,13 @@
                 TextColor="#353440"
                 FontSize="20"
                 BackgroundColor="#F2C299"
-                Padding="5"/>
+                Padding="5">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
                 <Button
                 Text="_"
                 FontSize="40"
@@ -44,7 +74,7 @@
                 Clicked="removeTrackBtn_Clicked"
                 Pressed="removeTrackBtn_Pressed"
                 Released="removeTrackBtn_Released"/>
-                
+
             </StackLayout>
             <ListView x:Name="myTrackListView" ItemsSource="{Binding myTracksList}" HasUnevenRows="True" IsPullToRefreshEnabled="False" SeparatorVisibility="None" >
                 <ListView.ItemTemplate>
@@ -61,10 +91,28 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <Image Grid.RowSpan="2" Source="{Binding imgPath}"></Image>
-                                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding street}" FontSize="17" LineBreakMode="WordWrap" WidthRequest="100" TextColor="#353440"></Label>
+                                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding street}" FontSize="17" LineBreakMode="WordWrap" WidthRequest="100" TextColor="#353440">
+                                        <Label.FontFamily>
+                                            <OnPlatform x:TypeArguments="x:String">
+                                                <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                                            </OnPlatform>
+                                        </Label.FontFamily>
+                                    </Label>
                                     <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
-                                        <Label Text="Rowerzystów dzisiaj:" TextColor="#353440"></Label>
-                                        <Label Text="{Binding bikersToday}" TextColor="#353440"></Label>
+                                        <Label Text="Rowerzystów dzisiaj:" TextColor="#353440">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                        <Label Text="{Binding bikersToday}" TextColor="#353440">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
                                     </StackLayout>
                                 </Grid>
                             </Frame>

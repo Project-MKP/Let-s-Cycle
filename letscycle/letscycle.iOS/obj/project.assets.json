@@ -7938,11 +7938,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
+      "projectUniqueName": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
       "projectName": "letscycle.iOS",
-      "projectPath": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
+      "projectPath": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle.iOS\\letscycle.iOS.csproj",
       "packagesPath": "C:\\Users\\PIER\\.nuget\\packages\\",
-      "outputPath": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle.iOS\\obj\\",
+      "outputPath": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7963,8 +7963,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
-              "projectPath": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
+            "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle\\letscycle.csproj": {
+              "projectPath": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle\\letscycle.csproj"
             }
           }
         }

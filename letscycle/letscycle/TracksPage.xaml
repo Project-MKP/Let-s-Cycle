@@ -13,13 +13,26 @@
                 Margin="0,30,0,0"
                 FontSize="30"
                 BackgroundColor="#F2C299"
-                Padding="5"/>
+                Padding="5">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+
             <StackLayout Orientation="Horizontal" Margin="20,30,0,0">
                 <Label Text="Dostępne trasy"
                 TextColor="#353440"
                 FontSize="20"
                 BackgroundColor="#F2C299"
-                Padding="5"/>
+                Padding="5">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
                 <Button
                 Text="+"
                 FontSize="40"
@@ -51,14 +64,32 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
                                     <StackLayout Orientation="Horizontal">
-                                    <Frame CornerRadius="20" Padding="0" IsClippedToBounds="True">
-                                        <Image Grid.RowSpan="2" Source="{Binding imgPath}"></Image>
-                                    </Frame>
+                                        <Frame CornerRadius="20" Padding="0" IsClippedToBounds="True">
+                                            <Image Grid.RowSpan="2" Source="{Binding imgPath}"></Image>
+                                        </Frame>
                                         <StackLayout Orientation="Vertical">
-                                            <Label Grid.Column="1" Grid.Row="0" Text="{Binding street}" FontSize="17" LineBreakMode="WordWrap" WidthRequest="120" TextColor="#353440"></Label>
+                                            <Label Grid.Column="1" Grid.Row="0" Text="{Binding street}" FontSize="17" LineBreakMode="WordWrap" WidthRequest="120" TextColor="#353440">
+                                                <Label.FontFamily>
+                                                    <OnPlatform x:TypeArguments="x:String">
+                                                        <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                                                    </OnPlatform>
+                                                </Label.FontFamily>
+                                            </Label>
                                             <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
-                                                <Label Text="Rowerzystów dzisiaj:" TextColor="#353440"></Label>
-                                                <Label Text="{Binding bikersToday}" TextColor="#353440"></Label>
+                                                <Label Text="Rowerzystów dzisiaj:" TextColor="#353440">
+                                                    <Label.FontFamily>
+                                                        <OnPlatform x:TypeArguments="x:String">
+                                                            <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                                                        </OnPlatform>
+                                                    </Label.FontFamily>
+                                                </Label>
+                                                <Label Text="{Binding bikersToday}" TextColor="#353440">
+                                                    <Label.FontFamily>
+                                                        <OnPlatform x:TypeArguments="x:String">
+                                                            <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
+                                                        </OnPlatform>
+                                                    </Label.FontFamily>
+                                                </Label>
                                             </StackLayout>
                                         </StackLayout>
                                     </StackLayout>

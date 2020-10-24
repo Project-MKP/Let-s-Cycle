@@ -6537,11 +6537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
+      "projectUniqueName": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
       "projectName": "letscycle.Android",
-      "projectPath": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
+      "projectPath": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
       "packagesPath": "C:\\Users\\PIER\\.nuget\\packages\\",
-      "outputPath": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle.Android\\obj\\",
+      "outputPath": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -6562,8 +6562,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
-              "projectPath": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
+            "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle\\letscycle.csproj": {
+              "projectPath": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle\\letscycle.csproj"
             }
           }
         }

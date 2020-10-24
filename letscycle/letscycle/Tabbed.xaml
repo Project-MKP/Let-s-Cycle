@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:letscycle="clr-namespace:letscycle"
             mc:Ignorable="d"
              x:Class="letscycle.Tabbed">
-  <!--Pages can be added as references or inline-->
+    <!--Pages can be added as references or inline-->
     <letscycle:HomePage IconImageSource="home.png" ></letscycle:HomePage>
     <letscycle:TracksPage IconImageSource="bike.png" ></letscycle:TracksPage>
     <letscycle:StatsPage IconImageSource="chart.png" ></letscycle:StatsPage>

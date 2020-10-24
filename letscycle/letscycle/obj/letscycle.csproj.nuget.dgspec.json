@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {}
+    "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle\\letscycle.csproj": {}
   },
   "projects": {
-    "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+    "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle\\letscycle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "projectUniqueName": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle\\letscycle.csproj",
         "projectName": "letscycle",
-        "projectPath": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "projectPath": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle\\letscycle.csproj",
         "packagesPath": "C:\\Users\\PIER\\.nuget\\packages\\",
-        "outputPath": "G:\\pierdoly\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
+        "outputPath": "G:\\pierdoly\\Let-s-Cycle-master\\letscycle\\letscycle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
