@@ -50,7 +50,7 @@
             <StackLayout Orientation="Horizontal" Margin="20,30,0,0">
                 <Label Text="Moje trasy"
                 TextColor="#353440"
-                FontSize="20"
+                FontSize="17"
                 BackgroundColor="#F2C299"
                 Padding="5">
                     <Label.FontFamily>

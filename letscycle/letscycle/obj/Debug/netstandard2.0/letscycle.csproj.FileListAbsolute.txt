@@ -80,7 +80,6 @@ C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\bin\Debug\netsta
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\HelpPage.xaml.g.cs
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\StatsPage.xaml.g.cs
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\Tabbed.xaml.g.cs
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\TracksPage.xaml.g.cs
@@ -186,3 +185,4 @@ G:\pierdoly\Let-s-Cycle-master\letscycle\letscycle\obj\Debug\netstandard2.0\Xaml
 G:\pierdoly\Let-s-Cycle-master\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.dll
 G:\pierdoly\Let-s-Cycle-master\letscycle\letscycle\obj\Debug\netstandard2.0\ref\letscycle.dll
 G:\pierdoly\Let-s-Cycle-master\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.pdb
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\Map.xaml.g.cs

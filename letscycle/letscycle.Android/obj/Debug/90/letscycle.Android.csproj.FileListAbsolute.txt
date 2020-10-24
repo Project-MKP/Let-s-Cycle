@@ -1931,11 +1931,6 @@ C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\s
 C:\Users\Krystian\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\assets\MySqlConnector.dll
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.Android.dll
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.Android.pdb
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle.apk
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle.aab
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle-Signed.aab
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle-Signed.apk
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.companyname.letscycle-Signed.apk.idsig
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.dll
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\letscycle.pdb
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
@@ -1952,10 +1947,7 @@ C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debu
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\letscycle.Android.csproj.CopyComplete
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\letscycle.Android.dll
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\letscycle.Android.pdb
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\bin\com.companyname.letscycle.apk
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\bin\base.zip
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\bin\com.companyname.letscycle.aab
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\bin\com.companyname.letscycle.apks
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\layout\tabbar.xml
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\layout\toolbar.xml
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\values\styles.xml
@@ -2417,7 +2409,6 @@ C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debu
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\xamarin\essentials\fileProvider.java
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\bin\packaged_resources
-C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\com\companyname\letscycle\R.java
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.arm64-v8a.s
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.armeabi-v7a.s
 C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.x86.s
@@ -5242,3 +5233,24 @@ G:\pierdoly\Let-s-Cycle-master\letscycle\letscycle.Android\obj\Debug\90\stamp\_C
 G:\pierdoly\Let-s-Cycle-master\letscycle\letscycle.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 G:\pierdoly\Let-s-Cycle-master\letscycle\letscycle.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 G:\pierdoly\Let-s-Cycle-master\letscycle\letscycle.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.project_mkp.letscycle.apk
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.project_mkp.letscycle.aab
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.project_mkp.letscycle-Signed.aab
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.project_mkp.letscycle-Signed.apk
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\bin\Debug\com.project_mkp.letscycle-Signed.apk.idsig
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\bin\com.project_mkp.letscycle.apk
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\bin\com.project_mkp.letscycle.aab
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\bin\com.project_mkp.letscycle.apks
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\biker.png
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\cold_biker.png
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\house.png
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\cloud_biker.png
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\map.png
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\splashscreen.png
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\assets\Plugin.Connectivity.Abstractions.dll
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\assets\Plugin.Connectivity.Abstractions.pdb
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\assets\Plugin.Connectivity.dll
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\assets\Plugin.Connectivity.dll.mdb
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\crc64cea48322b3427ae9\ConnectivityChangeBroadcastReceiver.java
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\crc64d964a1c527203a8e\SplashActivity.java
+C:\Users\ch\Desktop\Nowy folder\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\com\project_mkp\letscycle\R.java

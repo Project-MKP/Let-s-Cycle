@@ -66,7 +66,7 @@
                     <StackLayout>
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                             <StackLayout Orientation="Vertical">
-                                <Label x:Name="stationsLbl" Text="Test" FontSize="18" TextColor="#353440" HorizontalOptions="Center">
+                                <Label x:Name="stationsLbl" Text="Test" FontSize="16" TextColor="#353440" HorizontalOptions="Center">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
                                             <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
@@ -82,7 +82,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Vertical">
-                                <Label x:Name="allBikesLbl" Text="Test" FontSize="18" TextColor="#353440" HorizontalOptions="Center" Margin="30,0,30,0">
+                                <Label x:Name="allBikesLbl" Text="Test" FontSize="16" TextColor="#353440" HorizontalOptions="Center" Margin="25,0,25,0">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
                                             <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
@@ -98,7 +98,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Vertical">
-                                <Label x:Name="freeBikesLbl" Text="Test" FontSize="18" TextColor="#353440" HorizontalOptions="Center">
+                                <Label x:Name="freeBikesLbl" Text="Test" FontSize="16" TextColor="#353440" HorizontalOptions="Center">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
                                             <On Platform="Android" Value="LexendDeca-Regular.ttf#LexendDeca-Regular" />
