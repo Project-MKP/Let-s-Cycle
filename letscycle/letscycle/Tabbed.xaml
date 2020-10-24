@@ -9,6 +9,6 @@
     <letscycle:HomePage IconImageSource="home.png" ></letscycle:HomePage>
     <letscycle:TracksPage IconImageSource="bike.png" ></letscycle:TracksPage>
     <letscycle:StatsPage IconImageSource="chart.png" ></letscycle:StatsPage>
-    <letscycle:Map IconImageSource=""></letscycle:Map>
+    <letscycle:Map IconImageSource="map.png"></letscycle:Map>
     <letscycle:HelpPage IconImageSource="help.png" ></letscycle:HelpPage>
 </TabbedPage>
