@@ -81,7 +81,7 @@ namespace letscycle
 
         private void addTrackBtn_Released(object sender, EventArgs e)
         {
-            addTrackBtn.BackgroundColor = Color.Transparent;
+            addTrackBtn.BackgroundColor = Color.White;
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Collections.Specialized;
 using System.IO;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -72,13 +73,17 @@ namespace letscycle
 
         private void removeTrackBtn_Released(object sender, EventArgs e)
         {
-            removeTrackBtn.BackgroundColor = Color.Transparent;
+            removeTrackBtn.BackgroundColor = Color.White;
         }
 
-        void OnTapped(object sender, EventArgs e)
+        public async void OnTapped(object sender, EventArgs e)
         {
             var frameSender = (Frame)sender;
             frameSender.BackgroundColor = Color.Red;
+            await Task.Delay(250);
+            frameSender.BackgroundColor = Color.White;
         }
+
+         
     }
 }

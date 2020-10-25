@@ -37,7 +37,7 @@
                 <Button
                 Text="Dodaj do ulubionych"
                 TextColor="#353440"
-                FontSize="7.5"
+                FontSize="8.2"
                 Padding="0"
                 BackgroundColor="White"
                 CornerRadius="5"
