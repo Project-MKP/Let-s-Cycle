@@ -6019,8 +6019,6 @@ C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debu
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\assets\Zstandard.Net.dll
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\typemaps.arm64-v8a.s
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\typemaps.armeabi-v7a.s
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\typemaps.x86.s
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\typemaps.x86_64.s
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\typemaps.armeabi-v7a-shared.inc
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\typemaps.shared.inc
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\AndroidManifest.xml
@@ -6032,8 +6030,6 @@ C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debu
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\buildid.txt
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\environment.arm64-v8a.s
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\environment.armeabi-v7a.s
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\environment.x86.s
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\environment.x86_64.s
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\android\support\compat\R.java
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\android\support\coordinatorlayout\R.java
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\android\support\customtabs\CustomTabsClient_CustomTabsCallbackImpl.java
@@ -6314,24 +6310,14 @@ C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debu
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\com\project_mkp\letscycle\R.java
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.arm64-v8a.s
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.armeabi-v7a.s
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.x86.s
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.x86_64.s
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\typemaps.arm64-v8a.o
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\typemaps.armeabi-v7a.o
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\typemaps.x86.o
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\typemaps.x86_64.o
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\environment.arm64-v8a.o
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\environment.armeabi-v7a.o
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\environment.x86.o
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\environment.x86_64.o
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.arm64-v8a.o
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.armeabi-v7a.o
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.x86.o
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\compressed_assemblies.x86_64.o
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\app_shared_libraries\armeabi-v7a\libxamarin-app.so
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\app_shared_libraries\x86\libxamarin-app.so
-C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\bin\classes.dex
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\stamp\_CleanIntermediateIfNeeded.stamp
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\stamp\_CompileToDalvik.stamp
@@ -6434,3 +6420,4 @@ d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\and
 d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\crc64cea48322b3427ae9\ConnectivityChangeBroadcastReceiver.java
 d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\crc64d964a1c527203a8e\SplashActivity.java
 d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\android\src\com\project_mkp\letscycle\R.java
+C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle.Android\obj\Debug\90\res\drawable\icon.png

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj": {}
+    "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj": {}
   },
   "projects": {
-    "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj": {
+    "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
         "projectName": "letscycle.Android",
-        "projectPath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
-        "packagesPath": "C:\\Users\\maciek\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle.Android\\obj\\",
+        "projectPath": "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle.Android\\letscycle.Android.csproj",
+        "packagesPath": "C:\\Users\\Krystian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\maciek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Krystian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
-                "projectPath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
+              "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+                "projectPath": "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj"
               }
             }
           }
@@ -70,21 +70,21 @@
         }
       }
     },
-    "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+    "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "projectUniqueName": "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
         "projectName": "letscycle",
-        "projectPath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
-        "packagesPath": "C:\\Users\\maciek\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\maciek\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
+        "projectPath": "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "packagesPath": "C:\\Users\\Krystian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Krystian\\Desktop\\kopie\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\maciek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Krystian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
