@@ -60,16 +60,17 @@
                     </Label.FontFamily>
                 </Label>
                 <Button
-                Text="_"
-                FontSize="40"
-                ContentLayout="Top,1"
-                Padding="0,-31,0,0"
+                Text="Usuń trasę"
+                TextColor="#353440"
+                FontSize="10"
+                Padding="0"
+                CornerRadius="5"
                 HorizontalOptions="Center" 
                 VerticalOptions="Center"
-                BackgroundColor="#00FFFFFF"
+                BackgroundColor="White"
                 x:Name="removeTrackBtn"
-                WidthRequest="35"
-                HeightRequest="35"
+                WidthRequest="40"
+                HeightRequest="40"
                 Margin="190,0,0,0"
                 Clicked="removeTrackBtn_Clicked"
                 Pressed="removeTrackBtn_Pressed"
@@ -80,7 +81,10 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Frame BackgroundColor="White" CornerRadius="20" Margin="5,5,5,5">
+                            <Frame x:Name="test" BackgroundColor="White" CornerRadius="20" Margin="5,5,5,5">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnTapped" NumberOfTapsRequired="1"/>
+                                </Frame.GestureRecognizers>
                                 <Grid >
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto"></RowDefinition>

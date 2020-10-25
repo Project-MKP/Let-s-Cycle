@@ -36,20 +36,27 @@ namespace letscycle
 
         private void addTrackBtn_Clicked(object sender, System.EventArgs e)
         {
-            List<Track> checkList = new List<Track>();
-            checkList = ude.ReadUserData(checkList);
-            Track track = trackListView.SelectedItem as Track;
-
-
-            if (!checkListElements(checkList, track))
+            try
             {
-                checkList.Add(track);
-                ude.ClearFile();
-                ude.SaveTracksToFile(checkList);
+                List<Track> checkList = new List<Track>();
+                checkList = ude.ReadUserData(checkList);
+                Track track = trackListView.SelectedItem as Track;
+
+
+                if (!checkListElements(checkList, track))
+                {
+                    checkList.Add(track);
+                    ude.ClearFile();
+                    ude.SaveTracksToFile(checkList);
+                }
+                else
+                {
+                    DisplayAlert("Błąd!", "Posiadasz już ten licznik na swojej liście!", "OK");
+                }
             }
-            else
+            catch
             {
-                DisplayAlert("Błąd!", "Posiadasz już ten licznik na swojej liście!", "OK");
+                DisplayAlert("Błąd!", "Najpierw zaznacz element!", "OK");
             }
         }
 

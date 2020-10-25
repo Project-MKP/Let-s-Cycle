@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {}
+    "d:\\Users\\maciek\\Desktop\\d\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
+    "d:\\Users\\maciek\\Desktop\\d\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "projectUniqueName": "d:\\Users\\maciek\\Desktop\\d\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
         "projectName": "letscycle",
-        "projectPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
-        "packagesPath": "C:\\Users\\Krystian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Krystian\\Desktop\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
+        "projectPath": "d:\\Users\\maciek\\Desktop\\d\\Let-s-Cycle\\letscycle\\letscycle\\letscycle.csproj",
+        "packagesPath": "C:\\Users\\maciek\\.nuget\\packages\\",
+        "outputPath": "d:\\Users\\maciek\\Desktop\\d\\Let-s-Cycle\\letscycle\\letscycle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Krystian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maciek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

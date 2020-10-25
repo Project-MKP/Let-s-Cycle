@@ -31,11 +31,18 @@ namespace letscycle
 
         private void removeTrackBtn_Clicked(object sender, System.EventArgs e)
         {
-            myTracksList = ude.RemoveTrack(myTrackListView.SelectedItem as Track, myTracksList.ToList());
-            myTrackListView.ItemsSource = null;
-            myTrackListView.ItemsSource = myTracksList;
+            try
+            {
+                myTracksList = ude.RemoveTrack(myTrackListView.SelectedItem as Track, myTracksList.ToList());
+                myTrackListView.ItemsSource = null;
+                myTrackListView.ItemsSource = myTracksList;
 
-            todayBikers.Text = CountTodaysBikers().ToString();   
+                todayBikers.Text = CountTodaysBikers().ToString();
+            }
+            catch
+            {
+                DisplayAlert("Błąd!", "Najpierw zaznacz element!", "OK");
+            }
         }
 
         private int CountTodaysBikers()
@@ -66,6 +73,12 @@ namespace letscycle
         private void removeTrackBtn_Released(object sender, EventArgs e)
         {
             removeTrackBtn.BackgroundColor = Color.Transparent;
+        }
+
+        void OnTapped(object sender, EventArgs e)
+        {
+            var frameSender = (Frame)sender;
+            frameSender.BackgroundColor = Color.Red;
         }
     }
 }
