@@ -74,16 +74,6 @@ namespace letscycle
         private void removeTrackBtn_Released(object sender, EventArgs e)
         {
             removeTrackBtn.BackgroundColor = Color.White;
-        }
-
-        public async void OnTapped(object sender, EventArgs e)
-        {
-            var frameSender = (Frame)sender;
-            frameSender.BackgroundColor = Color.Red;
-            await Task.Delay(250);
-            frameSender.BackgroundColor = Color.White;
-        }
-
-         
+        }         
     }
 }

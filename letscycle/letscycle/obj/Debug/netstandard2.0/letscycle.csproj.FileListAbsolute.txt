@@ -22,7 +22,6 @@ d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle\bin\Debug\netstandard2.0
 d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle\bin\Debug\netstandard2.0\ref\letscycle.dll
 d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle\bin\Debug\netstandard2.0\letscycle.pdb
 d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\App.xaml.g.cs
-d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\Tabbed.xaml.g.cs
 d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.AssemblyInfoInputs.cache
 d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.AssemblyInfo.cs
@@ -223,3 +222,4 @@ C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle\obj\Debug\netsta
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\ref\letscycle.dll
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.pdb
 C:\Users\Krystian\Desktop\kopie\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\letscycle.csprojAssemblyReference.cache
+d:\Users\maciek\Desktop\Let-s-Cycle\letscycle\letscycle\obj\Debug\netstandard2.0\Map.xaml.g.cs
